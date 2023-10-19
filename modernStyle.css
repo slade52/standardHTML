@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+    font-size: medium;
+    background-color: gray;
+    height: 50px;
+}
+
+nav {
+    float: right;
+    background-color: blueviolet;
+    width: 100px;  
+    height: 500px;
+    padding: 10px;
+}
+
+li {
+        color: chartreuse;
+}
+
+article {
+    float: right;
+    background-color: darkolivegreen;
+    width: 1000px;
+    height: 500px;  
+    padding: 10px; 
+}
+
+p {
+        color: aqua;
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+
+aside {
+     float : left;
+     width: 173px;
+     height: 500px;
+     padding: 10px;
+     background-color: red;
+}   
+section::after {
+    content : "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: greenyellow;
+    padding: 10px;
+    float: below;
+    text-align: center;
+}
